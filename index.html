@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">    
+  <head>
+    <meta charset="UTF-8">
+    <title>City Skyline</title>
+    <link href="styles.css" rel="stylesheet" />   
+    <!-- <link rel="stylesheet" href="weather-style.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div></div>
+    <div class="background-buildings sky" id="theSky">
+      <div class="weatherCard">
+        <form class="weatherForm">
+            <input type="text" class="cityInput" placeholder="Enter City">
+            <button type="submit">Get Weather</button>
+        </form>
+        <div class="card" style="display: none">
+            <!-- <h1 class="cityDisplay">Pretoria</h1>
+            <p class="tempDisplay w-info">33°C</p>
+            <p class="humidityDisplay w-info">Humidity: 75%</p>
+            <p class="descDisplay w-info">Clear Skies</p>
+            <p class="weatherEmoji w-info">☀️</p>
+            <p class="errorDisplay w-info">Please enter a city</p> -->
+        </div>
+    </div>
+      <div><h1 id="title">Time: <span id="time-hours"></span>:<span id="time-minutes"></span>:<span id="time-seconds"></span></h1></div>
+      <div></div>
+      <div class="bb1 building-wrap">
+        <div class="bb1a bb1-window"></div>
+        <div class="bb1b bb1-window"></div>
+        <div class="bb1c bb1-window"></div>
+        <div class="bb1d"></div>
+      </div>
+      <div class="bb2">
+        <div class="bb2a"></div>
+        <div class="bb2b"></div>
+      </div>
+      <div class="bb3"></div>
+      <div></div>
+      <div class="bb4 building-wrap">
+        <div class="bb4a"></div>
+        <div class="bb4b"></div>
+        <div class="bb4c window-wrap">
+          <div class="bb4-window"></div>
+          <div class="bb4-window"></div>
+          <div class="bb4-window"></div>
+          <div class="bb4-window"></div>
+        </div>
+      </div>
+      <div></div>
+      <div></div>
+    </div>
+
+    <div class="foreground-buildings">
+      <div></div>
+      <div></div>
+      <div class="fb1 building-wrap">
+        <div class="fb1a"></div>
+        <div class="fb1b"></div>
+        <div class="fb1c"></div>
+      </div>
+      <div class="fb2">
+        <div class="fb2a"></div>
+        <div class="fb2b window-wrap">
+          <div class="fb2-window"></div>
+          <div class="fb2-window"></div>
+          <div class="fb2-window"></div>
+        </div>
+      </div>
+      <div></div>
+      <div class="fb3 building-wrap">
+        <div class="fb3a window-wrap">
+          <div class="fb3-window"></div>
+          <div class="fb3-window"></div>
+          <div class="fb3-window"></div>
+        </div>
+        <div class="fb3b"></div>
+        <div class="fb3a"></div>
+        <div class="fb3b"></div>
+      </div>
+      <div class="fb4">
+        <div class="fb4a"></div>
+        <div class="fb4b">
+          <div class="fb4-window"></div>
+          <div class="fb4-window"></div>
+          <div class="fb4-window"></div>
+          <div class="fb4-window"></div>
+          <div class="fb4-window"></div>
+          <div class="fb4-window"></div>
+        </div>
+      </div>
+      <div class="fb5"></div>
+      <div class="fb6"></div>
+      <div></div>
+      <div></div>
+    </div>
+    <script src="script.js"></script>
+    <script src="weather-script.js"></script>
+  </body>
+</html>
