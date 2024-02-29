@@ -47,7 +47,7 @@ if (updatedTime.getSeconds() == 0) {
 
 function checkTime(){
 
-    if (hour > nightStart || hour < nightEnd) {
+    if (hour >= nightStart || hour < nightEnd) {
 
         // console.log("Night Time");
         root.style.setProperty('--building-color1', '#000');
